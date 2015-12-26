@@ -1,0 +1,1188 @@
+(defrule Acaro ""
+	(clasificacion invertebrado) 
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un Acaro."))
+	(send [animal_actual] set_nombre Acaro)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase arachnida)
+)
+
+(defrule Aguila ""
+	(clasificacion vertebrado) 
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un aguila"))
+	(send [animal_actual] set_nombre Aguila)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Arania ""
+	(clasificacion invertebrado) 
+	(alimentacion carnivora)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una arania"))
+	(send [animal_actual] set_nombre Arania)
+	(send [animal_actual] set_extremidades 8)
+	(send [animal_actual] set_clase arachnida)
+)
+
+(defrule Ardilla ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es ardilla"))
+	(send [animal_actual] set_nombre Ardilla)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Armadillo ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es armadillo"))
+	(send [animal_actual] set_nombre Armadillo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Asno ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un asno"))
+	(send [animal_actual] set_nombre Asno)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Atun ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un atun"))
+	(send [animal_actual] set_nombre Atun)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase actinopterygii)
+)
+
+(defrule Ballena ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es una ballena"))
+	(send [animal_actual] set_nombre Ballena)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Beluga ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es una beluga"))
+	(send [animal_actual] set_nombre Beluga)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Bufalo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un bufalo"))
+	(send [animal_actual] set_nombre Bufalo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Buho ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un buho"))
+	(send [animal_actual] set_nombre Buho)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Caballito_de_mar ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un caballito de mar"))
+	(send [animal_actual] set_nombre Caballito de mar)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase actinopterygii)
+)
+
+(defrule Caballo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un caballo"))
+	(send [animal_actual] set_nombre Caballo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Cabra ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una cabra"))
+	(send [animal_actual] set_nombre Cabra)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Calamar ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es es un calamar."))
+	(send [animal_actual] set_nombre Calamar)
+	(send [animal_actual] set_extremidades 10)
+	(send [animal_actual] set_clase cephalopoda)
+)
+
+(defrule Camaleon ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es un camaleon."))
+	(send [animal_actual] set_nombre Camaleon)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase reptilia)
+)
+
+(defrule Camello ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un camello."))
+	(send [animal_actual] set_nombre Camello)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Cangrejo ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un cangrejo."))
+	(send [animal_actual] set_nombre Cangrejo)
+	(send [animal_actual] set_extremidades 10)
+	(send [animal_actual] set_clase malacostraca)
+)
+
+(defrule Canguro ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un canguro."))
+	(send [animal_actual] set_nombre Canguro)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Caracol ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es un caracol."))
+	(send [animal_actual] set_nombre Caracol)
+	(send [animal_actual] set_extremidades 0)
+	(send [animal_actual] set_clase gastropoda)
+)
+
+(defrule Castor ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un castor."))
+	(send [animal_actual] set_nombre Castor)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Cebra ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una cebra."))
+	(send [animal_actual] set_nombre Cebra)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Cerdo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es cerdo."))
+	(send [animal_actual] set_nombre Cerdo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Chimpance ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un chimpance."))
+	(send [animal_actual] set_nombre Chimpance)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Cienpies ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es un cienpies."))
+	(send [animal_actual] set_nombre Cienpies)
+	(send [animal_actual] set_extremidades 100)
+	(send [animal_actual] set_clase chilopoda)
+)
+
+(defrule Ciervo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un ciervo."))
+	(send [animal_actual] set_nombre Ciervo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Ciguenia ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una ciguenia."))
+	(send [animal_actual] set_nombre Ciguenia)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Cisne ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es cisne."))
+	(send [animal_actual] set_nombre Cisne)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Cocodrilo ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es un cocodrilo."))
+	(send [animal_actual] set_nombre Cocodrilo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase sauropsida)
+)
+
+(defrule Codorniz ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una codorniz."))
+	(send [animal_actual] set_nombre Codorniz)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Colibri ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un colibri."))
+	(send [animal_actual] set_nombre Colibri)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Conejo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un conejo"))
+	(send [animal_actual] set_nombre Conejo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Coyote ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	(clase mammalia)
+	=>
+	(assert (especie "Tu animal es un coyote"))
+	(send [animal_actual] set_nombre Coyote)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Cucaracha ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una cucaracha"))
+	(send [animal_actual] set_nombre Cucaracha)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Cuervo ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un cuervo"))
+	(send [animal_actual] set_nombre Cuervo)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Delfin ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un delfin"))
+	(send [animal_actual] set_nombre Delfin)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Dromedario ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un dromedario"))
+	(send [animal_actual] set_nombre Dromedario)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Elefante ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un elefante."))
+	(send [animal_actual] set_nombre Elefante)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Erizo ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un erizo"))
+	(send [animal_actual] set_nombre Erizo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Escarabajo ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un escarabajo"))
+	(send [animal_actual] set_nombre Escarabajo)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Escorpion ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un escorpion"))
+	(send [animal_actual] set_nombre Escorpion)
+	(send [animal_actual] set_extremidades 9)
+	(send [animal_actual] set_clase arachnida)
+)
+
+(defrule Foca ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una foca"))
+	(send [animal_actual] set_nombre Foca)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Gallina ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una gallina"))
+	(send [animal_actual] set_nombre Gallina)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Gato ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un gato"))
+	(send [animal_actual] set_nombre Gato)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Gori ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un mono"))
+	(send [animal_actual] set_nombre Mono)
+	(send [animal_actual] set_extremidades 7)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Grillo ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un grillo"))
+	(send [animal_actual] set_nombre Grillo)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Hamster ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un hamster"))
+	(send [animal_actual] set_nombre Hamster)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Hipopotamo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un hipopotamo"))
+	(send [animal_actual] set_nombre Hipopotamo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Hormiga ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una hormiga"))
+	(send [animal_actual] set_nombre Hormiga)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Jabali ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un jabali"))
+	(send [animal_actual] set_nombre Jabali)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Jirafa ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una jirafa"))
+	(send [animal_actual] set_nombre Jirafa)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Koala ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un koala"))
+	(send [animal_actual] set_nombre Koala)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Lagarto ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es un lagarto"))
+	(send [animal_actual] set_nombre Lagarto)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase sauropsida)
+)
+
+(defrule Lemur ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un lemur"))
+	(send [animal_actual] set_nombre Lemur)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Leon ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un leon"))
+	(send [animal_actual] set_nombre Leon)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Lince ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un lince"))
+	(send [animal_actual] set_nombre Lince)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Llama ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una llama"))
+	(send [animal_actual] set_nombre Llama)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Lobo ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un lobo"))
+	(send [animal_actual] set_nombre Lobo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Lombriz ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es una lombriz"))
+	(send [animal_actual] set_nombre Lombriz)
+	(send [animal_actual] set_extremidades 0)
+	(send [animal_actual] set_clase clitellata)
+)
+
+(defrule Loro ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un loro"))
+	(send [animal_actual] set_nombre Loro)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Mandril ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un mandril"))
+	(send [animal_actual] set_nombre Mandril)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Mariposa ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una mariposa"))
+	(send [animal_actual] set_nombre Mariposa)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Mariquita ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion herbivoro)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una mariquita"))
+	(send [animal_actual] set_nombre Mariquita)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Medusa ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es una medusa"))
+	(send [animal_actual] set_nombre Medusa)
+	(send [animal_actual] set_extremidades 7)
+	(send [animal_actual] set_clase hydrozoa)
+)
+
+(defrule Mosca ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una mosca"))
+	(send [animal_actual] set_nombre Mosca)
+	(send [animal_actual] set_extremidades 8)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Mosquito ""
+	(clasificacion invertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un mosquito"))
+	(send [animal_actual] set_nombre Mosquito)
+	(send [animal_actual] set_extremidades 8)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Murcielago ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es un murcielago"))
+	(send [animal_actual] set_nombre Murcielago)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Narval ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un narval"))
+	(send [animal_actual] set_nombre Narval)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Oca ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una oca"))
+	(send [animal_actual] set_nombre Oca)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Orangutan ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un orangutan"))
+	(send [animal_actual] set_nombre Orangutan)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Ornitorrinco ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion ovoviviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un ornitorrinco"))
+	(send [animal_actual] set_nombre Ornitorrinco)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Oruga ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un gusano"))
+	(send [animal_actual] set_nombre Gusano)
+	(send [animal_actual] set_extremidades 6)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Oso ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un oso"))
+	(send [animal_actual] set_nombre Oso)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Oveja ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una oveja"))
+	(send [animal_actual] set_nombre Oveja)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Paloma ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una paloma"))
+	(send [animal_actual] set_nombre Paloma)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Pantera ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una pantera"))
+	(send [animal_actual] set_nombre Pantera)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Pato ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un pato"))
+	(send [animal_actual] set_nombre Pato)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Pavo ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un pavo"))
+	(send [animal_actual] set_nombre Pavo)
+	(send [animal_actual] set_extremidades 2)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Perro ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un perro"))
+	(send [animal_actual] set_nombre Perro)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Pez_Espada""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un pez espada"))
+	(send [animal_actual] set_nombre Pez Espada)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase actinopterygii)
+)
+
+(defrule Pinguinos ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un pinguino"))
+	(send [animal_actual] set_nombre Pinguinos)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase aves)
+)
+
+(defrule Pirania ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es una pirania"))
+	(send [animal_actual] set_nombre Pirania)
+	(send [animal_actual] set_extremidades 3)
+	(send [animal_actual] set_clase actinopterygii)
+)
+
+(defrule Polilla ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento volar)
+	=>
+	(assert (especie "Tu animal es una polilla"))
+	(send [animal_actual] set_nombre Polilla)
+	(send [animal_actual] set_extremidades 8)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Pulpo ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un pulpo"))
+	(send [animal_actual] set_nombre Pulpo)
+	(send [animal_actual] set_extremidades 8)
+	(send [animal_actual] set_clase cephalopoda)
+)
+
+(defrule Rana ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una rana"))
+	(send [animal_actual] set_nombre Rana)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase amphibia)
+)
+
+(defrule Rata ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una rata"))
+	(send [animal_actual] set_nombre Rata)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Rinoceronte ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un rinoceronte"))
+	(send [animal_actual] set_nombre Rinoceronte)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Salamandra ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una salamandra"))
+	(send [animal_actual] set_nombre Salamandra)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase amphibia)
+)
+
+(defrule Saltamontes ""
+	(clasificacion invertebrado)
+	(alimentacion herbivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un saltamontes"))
+	(send [animal_actual] set_nombre Saltamontes)
+	(send [animal_actual] set_extremidades 8)
+	(send [animal_actual] set_clase insecta)
+)
+
+(defrule Sepia ""
+	(clasificacion invertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es una sepia"))
+	(send [animal_actual] set_nombre Sepia)
+	(send [animal_actual] set_extremidades 0)
+	(send [animal_actual] set_clase cephalopoda)
+)
+
+(defrule Serpiente ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion oviparo)
+	(movimiento reptar)
+	=>
+	(assert (especie "Tu animal es una serpiente"))
+	(send [animal_actual] set_nombre Serpiente)
+	(send [animal_actual] set_extremidades 0)
+	(send [animal_actual] set_clase sauropsida)
+)
+
+(defrule Suricato ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un suricato"))
+	(send [animal_actual] set_nombre Suricato)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Tiburon ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion ovoviviparo)
+	(movimiento nadar)
+	=>
+	(assert (especie "Tu animal es un tiburon"))
+	(send [animal_actual] set_nombre Tiburon)
+	(send [animal_actual] set_extremidades 4)
+	(send [animal_actual] set_clase chondrichthyes)
+)
+
+(defrule Tigre ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un tigre."))
+	(send [animal_actual] set_nombre Tigre)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Topo ""
+	(clasificacion vertebrado)
+	(alimentacion carnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un topo."))
+	(send [animal_actual] set_nombre Topo)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Toro ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un toro."))
+	(send [animal_actual] set_nombre Toro)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Tortuga ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion oviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una tortuga."))
+	(send [animal_actual] set_nombre Tortuga)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase sauropsida)
+)
+
+(defrule Vaca ""
+	(clasificacion vertebrado)
+	(alimentacion herbivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es una vaca."))
+	(send [animal_actual] set_nombre Vaca)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
+
+(defrule Zorro ""
+	(clasificacion vertebrado)
+	(alimentacion omnivoro)
+	(reproduccion viviparo)
+	(movimiento andar)
+	=>
+	(assert (especie "Tu animal es un zorro."))
+	(send [animal_actual] set_nombre Zorro)
+	(send [animal_actual] set_extremidades 5)
+	(send [animal_actual] set_clase mammalia)
+)
