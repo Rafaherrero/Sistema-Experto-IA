@@ -149,7 +149,10 @@ Algunos de los criterios por los que agrupamos los animales son los siguientes:
 # Documentacion uso de docxGen.py
 ##instalar python-docx
 * download from http://pypi.python.org/pypi/python-docx
+
 * python setup.py install
+
 ###docxGen.py genera la documentacion del sistema experto
+
 ###ejecutar:
 * ./docxGen.py
